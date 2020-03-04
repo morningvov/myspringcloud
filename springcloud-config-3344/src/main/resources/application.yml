@@ -1,0 +1,14 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: Config_3344_StartSpringCloudApp-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/morningvov/springcloud-config.git   #git仓库的地址
+          #search-paths: springcloud-config # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: morningvov
+          password: 892687504@morning
